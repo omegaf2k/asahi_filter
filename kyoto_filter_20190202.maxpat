@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 99.0, 814.0, 636.0 ],
+		"rect" : [ 47.0, 98.0, 815.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 565.0, 388.0, 150.0, 20.0 ],
+					"text" : "hoge"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -50,13 +61,13 @@
 					"presentation_rect" : [ 108.0, 78.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Sustain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_longname" : "sustain",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 500 ],
-							"parameter_shortname" : "Sustain"
+							"parameter_initial" : [ 500 ]
 						}
 
 					}
@@ -78,14 +89,14 @@
 					"presentation_rect" : [ 158.0, 22.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_exponent" : 3.0,
 							"parameter_longname" : "decay[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1000.0,
-							"parameter_initial" : [ 55.0 ],
-							"parameter_shortname" : "Decay"
+							"parameter_initial" : [ 55.0 ]
 						}
 
 					}
@@ -107,13 +118,13 @@
 					"presentation_rect" : [ 158.0, 78.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Release",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_longname" : "release",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1000.0,
-							"parameter_initial" : [ 500 ],
-							"parameter_shortname" : "Release"
+							"parameter_initial" : [ 500 ]
 						}
 
 					}
@@ -136,14 +147,14 @@
 					"presentation_rect" : [ 210.0, 78.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Gain/OD",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "gain_overdrive",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
-							"parameter_initial" : [ 0.42 ],
-							"parameter_shortname" : "Gain/OD"
+							"parameter_initial" : [ 0.42 ]
 						}
 
 					}
@@ -264,6 +275,7 @@
 					"presentation_rect" : [ 9.0, 78.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Max Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_linknames" : 1,
@@ -271,8 +283,7 @@
 							"parameter_longname" : "max_freq",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 20000.0,
-							"parameter_initial" : [ 5312.0 ],
-							"parameter_shortname" : "Max Freq"
+							"parameter_initial" : [ 5312.0 ]
 						}
 
 					}
@@ -295,6 +306,7 @@
 					"presentation_rect" : [ 9.0, 22.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Min Freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3,
 							"parameter_linknames" : 1,
@@ -302,8 +314,7 @@
 							"parameter_longname" : "min_freq",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 20000.0,
-							"parameter_initial" : [ 625.0 ],
-							"parameter_shortname" : "Min Freq"
+							"parameter_initial" : [ 625.0 ]
 						}
 
 					}
@@ -325,13 +336,13 @@
 					"presentation_rect" : [ 62.0, 78.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_longname" : "q[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 200.0,
-							"parameter_initial" : [ 137.0 ],
-							"parameter_shortname" : "Q"
+							"parameter_initial" : [ 137.0 ]
 						}
 
 					}
@@ -353,13 +364,13 @@
 					"presentation_rect" : [ 108.0, 22.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Attack",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_longname" : "attack[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1000.0,
-							"parameter_initial" : [ 10.0 ],
-							"parameter_shortname" : "Attack"
+							"parameter_initial" : [ 10.0 ]
 						}
 
 					}
@@ -392,13 +403,13 @@
 					"presentation_rect" : [ 210.0, 22.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Density",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "density",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1000.0,
-							"parameter_initial" : [ 500 ],
-							"parameter_shortname" : "Density"
+							"parameter_initial" : [ 500 ]
 						}
 
 					}
@@ -428,21 +439,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
 									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
 									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
 									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"formantcorrection" : [ 0 ],
 									"mode" : [ "basic" ],
-									"play" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ]
+									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ]
 								}
 
 							}
@@ -453,21 +464,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
 									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
 									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
 									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"formantcorrection" : [ 0 ],
 									"mode" : [ "basic" ],
-									"play" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ]
+									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"play" : [ 0 ]
 								}
 
 							}
@@ -518,11 +529,11 @@
 					"patching_rect" : [ 412.0, 449.0, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.dial",
-							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "live.dial"
+							"parameter_mmax" : 100.0
 						}
 
 					}
@@ -1308,16 +1319,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22" : [ "decay[2]", "Decay", 0 ],
-			"obj-24" : [ "sustain", "Sustain", 0 ],
 			"obj-4" : [ "live.dial", "live.dial", 0 ],
 			"obj-15" : [ "attack[1]", "Attack", 0 ],
-			"obj-23" : [ "density", "Density", 0 ],
+			"obj-24" : [ "sustain", "Sustain", 0 ],
 			"obj-60" : [ "max_freq", "Max Freq", 0 ],
+			"obj-23" : [ "density", "Density", 0 ],
 			"obj-18" : [ "q[2]", "Q", 0 ],
 			"obj-21" : [ "release", "Release", 0 ],
-			"obj-59" : [ "min_freq", "Min Freq", 0 ],
 			"obj-56" : [ "gain_overdrive", "Gain/OD", 0 ],
+			"obj-59" : [ "min_freq", "Min Freq", 0 ],
+			"obj-22" : [ "decay[2]", "Decay", 0 ],
 			"parameterbanks" : 			{
 
 			}
